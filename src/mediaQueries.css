@@ -1,0 +1,112 @@
+@media (max-width: 1440px) {
+   
+.for_slider{
+    position: static;
+}
+    .chage_oldBooks {
+     display: inline-block;
+        position: static;
+        /* width: 49.8%; */
+        height: auto;
+        width: 49.7%;
+    }
+
+    .top_100Books{
+        display: inline-block;
+        position: static;
+        /* width: 49.8%; */
+        height: auto;
+        width: 49.7%;
+
+    }
+
+    .top_100Books>div>p,.chage_oldBooks>div>p{
+width: auto;
+height: auto;
+    }
+
+/* BOOKS */
+
+.catalog {
+    width: 100%;
+    height: auto;
+    position: static;
+    background-color: #EFEEF6;
+    padding-bottom: 30px;
+}
+
+.catalog_cover{
+    display: none;
+}
+
+.catalog_ul{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+
+.cards{
+margin-left: 0;
+justify-content: space-around;
+}
+.card{
+gap:3%
+}
+.card_cover{
+    width: auto;
+}
+
+
+
+.d_flex{
+    flex-direction: column;
+}
+  }
+
+
+
+@media (max-width: 440px){
+   
+
+    .image_slider{
+        margin-bottom: 0;
+    }
+    .card_cover{
+        height: auto;
+        width: 100%;
+    }
+    .buy{
+        width: auto;
+    }
+}
+
+
+@media (max-width: 662px){
+.image_slider{
+    margin-bottom: 30px;
+}
+
+    .chage_oldBooks {
+        display: inline-block;
+           position: static;
+           /* width: 49.8%; */
+           height: auto;
+           width: 100%;
+           padding-top: 30px;
+           padding-bottom: 15px;
+       }
+   
+       .top_100Books{
+           display: inline-block;
+           position: static;
+           /* width: 49.8%; */
+           height: auto;
+           width: 100%;
+           padding-top: 30px;
+           padding-bottom: 15px;
+   
+       }
+}
